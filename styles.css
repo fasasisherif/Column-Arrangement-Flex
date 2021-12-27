@@ -1,0 +1,104 @@
+
+:root {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --light: 75%;
+    --dark: 35%;
+    --medium: 55%;
+    --dark-red: hsl(0, 80%, var(--dark));
+    --dark-blue: hsl(220, 80%, var(--dark));
+    --medium-blue: hsl(220, 80%, var(--medium));
+    --light-blue: hsl(220, 80%, var(--light));
+    --medium-green: hsl(120, 80%, var(--medium));
+    --pale-yellow: hsl(70, 80%, var(--medium));
+    --medium-yellow: hsl(35, 80%, var(--medium));
+    --medium-red: hsl(0, 80%, var(--medium));
+}
+
+body {
+    padding: 1rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* General Styling */
+.dark-red {
+    background-color: var(--dark-red);
+    --dark: 30%;
+    border: .2em solid hsl(0, 80%, var(--dark));
+}
+.dark-blue {
+    background-color: var(--dark-blue);
+    --dark: 30%;
+    border: .2em solid hsl(220, 80%, var(--dark));
+}
+.medium-blue {
+    background-color: var(--medium-blue);
+    --medium: 50%;
+    border: .2em solid hsl(220, 80%, var(--medium));
+}
+.light-blue {
+    background-color: var(--light-blue);
+    --light: 70%;
+    border: .2em solid hsl(220, 80%, var(--light));
+}
+.medium-green {
+    background-color: var(--medium-green);
+    --medium: 50%;
+    border: .2em solid hsl(120, 80%, var(--medium));
+}
+.pale-yellow {
+    background-color: var(--pale-yellow);
+    --medium: 50%;
+    border: .2em solid hsl(70, 80%, var(--medium));
+}
+.medium-yellow {
+    background-color: var(--medium-yellow);
+    --medium: 50%;
+    border: .2em solid hsl(35, 80%, var(--medium));
+}
+.medium-red {
+    background-color: var(--medium-red);
+    --medium: 50%;
+    border: .2em solid hsl(0, 80%, var(--medium));
+}
+
+
+
+
+.colour-wrapper {
+    font-size: 1.3rem;
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.colour-wrapper > div {
+    min-width: 40%;
+    flex-grow: 1;
+    text-align: center;
+    padding: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
